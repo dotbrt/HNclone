@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Homepage</h2>
-      <div v-for="story in stories" :key="story">
+      <div v-for="(story, idx) in stories" :key="idx">
       <router-link :to="{ path: '/story/' + story.data.id }">
       <h2>{{ story.data.title }}</h2></router-link>
       <p>Type: {{ story.data.type }}</p>
@@ -9,7 +9,6 @@
       <p>Score: {{ story.data.score }}</p>
     </div>
     </div>
-  </div>
 </template>
 
 <script>
