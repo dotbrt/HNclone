@@ -6,7 +6,7 @@
       >
       <ul class="pure-menu-list">
         <li class="pure-menu-item">
-          <router-link class="pure-menu-link" to="/about">About</router-link>
+          <router-link class="pure-menu-link" to="/about">PLACEHOLDER</router-link>
         </li>
       </ul>
     </div>

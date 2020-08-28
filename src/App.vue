@@ -13,7 +13,7 @@
     name: "App",
     components: {
       Navbar,
-      Homepage
+      Homepage,
     }
   };
 </script>

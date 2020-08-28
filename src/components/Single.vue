@@ -3,7 +3,7 @@
     <h2>{{ story.title }}</h2>
     <p>Score: {{ story.score }}</p>
     <p>{{ story.url }}</p>
-    <div v-for="(idx,comment) in comments" :key="idx(comment)">
+    <div v-for="(comment, idx) in comments" :key="idx">
       <div class="comment-wrap">
         <div class="comment-block">
           <p class="comment-text">{{ comment.text }}</p>
@@ -58,4 +58,5 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
